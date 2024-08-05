@@ -1,0 +1,12 @@
+name = "work"
+main = "src/worker.js"
+compatibility_date = "2024-08-05"
+workers_dev = true
+
+[triggers]
+crons = [ "0 */1 * * *" ]
+
+[vars]
+CHAT = "chat-id"
+TEXT = "your motivational text"
+TOKEN = "bot-token"
